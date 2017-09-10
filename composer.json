@@ -1,5 +1,5 @@
 {
-    "name": "laravel-validation-rules/country",
+    "name": "laravel-validation-rules/country-codes",
     "description": "Validate country codes.",
     "type": "library",
     "keywords": [ "laravel", "validation", "country" ],
