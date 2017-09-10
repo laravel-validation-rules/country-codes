@@ -20,6 +20,12 @@ Validates 2 & 3 character country codes.
   </a>
 </p>
 
+## Installation
+
+```bash
+composer require laravel-validation-rules/country-codes
+```
+
 ## Usage
 
 Validate a 2 character country code.
