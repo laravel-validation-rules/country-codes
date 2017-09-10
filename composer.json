@@ -1,0 +1,31 @@
+{
+    "name": "laravel-validation-rules/country",
+    "description": "Validate country codes.",
+    "type": "library",
+    "keywords": [ "laravel", "validation", "country" ],
+    "require": {
+        "illuminate/contracts": "^5.5",
+        "league/iso3166": "^2.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.3"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ashley Clarke",
+            "email": "me@ashleyclarke.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LVR\\CountryCode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LVR\\CountryCode\\Tests\\": "tests/"
+        }
+    }
+}
