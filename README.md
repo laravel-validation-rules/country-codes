@@ -1,4 +1,4 @@
-# IP
+# Country Codes
 
 Validates 2 & 3 character country codes.
 
