@@ -37,6 +37,6 @@ class Three implements Rule
      */
     public function message()
     {
-        return 'Invalid country code.';
+        return 'Invalid ISO3166-A3 country code.';
     }
 }
