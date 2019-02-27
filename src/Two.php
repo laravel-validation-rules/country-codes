@@ -37,6 +37,6 @@ class Two implements Rule
      */
     public function message()
     {
-        return __('validation.country');
+        return __('validation.country2');
     }
 }
