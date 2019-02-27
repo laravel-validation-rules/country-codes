@@ -37,6 +37,6 @@ class Two implements Rule
      */
     public function message()
     {
-        return 'Invalid ISO3166-A2 country code.';
+        return __('validation.country');
     }
 }
