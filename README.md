@@ -15,9 +15,6 @@ Validates 2 & 3 character country codes.
   <a href="https://github.com/laravel-validation-rules/country-codes/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/laravel-validation-rules/country-codes.svg?style=flat-square">
   </a>
-  <a href="https://twitter.com/clarkeash">
-    <img src="http://img.shields.io/badge/author-@clarkeash-blue.svg?style=flat-square">
-  </a>
 </p>
 
 ## Installation
