@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": [ "laravel", "validation", "country" ],
     "require": {
-        "illuminate/contracts": "5.6.*",
+        "illuminate/contracts": "5.6.*|^6.0|^7.0|^8.0",
         "league/iso3166": "^2.0"
     },
     "require-dev": {
