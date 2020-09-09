@@ -6,6 +6,21 @@ php:
   - 7.3
   - 7.4
 
+env:
+  matrix:
+    - LARAVEL='5.6.*'
+    - LARAVEL='5.6.*' COMPOSER_FLAGS="--prefer-lowest"
+    - LARAVEL='5.7.*'
+    - LARAVEL='5.7.*' COMPOSER_FLAGS="--prefer-lowest"
+    - LARAVEL='5.8.*'
+    - LARAVEL='5.8.*' COMPOSER_FLAGS="--prefer-lowest"
+    - LARAVEL='^6.0'
+    - LARAVEL='^6.0' COMPOSER_FLAGS="--prefer-lowest"
+    - LARAVEL='^7.0'
+    - LARAVEL='^7.0' COMPOSER_FLAGS="--prefer-lowest"
+    - LARAVEL='^8.0'
+    - LARAVEL='^8.0' COMPOSER_FLAGS="--prefer-lowest"
+
 cache:
   directories:
     - $HOME/.composer/cache
@@ -14,7 +29,8 @@ before_install:
   - travis_retry composer self-update
 
 install:
-  - travis_retry composer install --no-interaction --prefer-dist --no-suggest
+  - travis_retry composer require "illuminate/contracts:${LARAVEL}" --prefer-dist --no-interaction --no-suggest
+  - travis_retry composer install --prefer-dist --no-interaction --no-suggest
 
 script:
   - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
