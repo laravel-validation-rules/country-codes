@@ -3,14 +3,8 @@
 Validates 2 & 3 character country codes.
 
 <p align="center">
-  <a href="https://travis-ci.org/laravel-validation-rules/country-codes">
-    <img src="https://img.shields.io/travis/laravel-validation-rules/country-codes.svg?style=flat-square">
-  </a>
-  <a href="https://scrutinizer-ci.com/g/laravel-validation-rules/country-codes/code-structure/master/code-coverage">
-    <img src="https://img.shields.io/scrutinizer/coverage/g/laravel-validation-rules/country-codes.svg?style=flat-square">
-  </a>
-  <a href="https://scrutinizer-ci.com/g/laravel-validation-rules/country-codes">
-    <img src="https://img.shields.io/scrutinizer/g/laravel-validation-rules/country-codes.svg?style=flat-square">
+  <a href="https://github.com/laravel-validation-rules/country-codes/actions">
+    <img src="https://img.shields.io/github/workflow/status/laravel-validation-rules/country-codes/CI?style=flat-square">
   </a>
   <a href="https://github.com/laravel-validation-rules/country-codes/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/laravel-validation-rules/country-codes.svg?style=flat-square">
